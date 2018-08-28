@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<schema version="0.3">
+    <table name="btFacts">
+        <field name="bID" type="I">
+            <key/>
+            <unsigned/>
+        </field>
+        <field name="heading" type="C" size="255"></field>
+    </table>
+    <table name="btFactsItemEntries">
+        <field name="id" type="I">
+            <key/>
+            <unsigned/>
+            <autoincrement/>
+        </field>
+        <field name="bID" type="I">
+            <unsigned/>
+        </field>
+        <field name="sortOrder" type="I"></field>
+        <field name="image" type="I">
+            <default value="0"/>
+            <unsigned/>
+        </field>
+        <field name="fact" type="C" size="255"></field>
+        <field name="description_1" type="X2"></field>
+    </table>
+</schema>
