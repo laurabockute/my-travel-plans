@@ -1,0 +1,162 @@
+
+@import url('https://netdna.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css');
+.accordion-set {
+	display: block;
+	clear: both;
+	margin-top: 20px;
+	margin-right: 0;
+	margin-bottom: 20px;
+	margin-left: 0;
+	padding-bottom: 20px;
+}
+.accordion-container {
+	width: 100%;
+	clear: both;
+	margin-top: 0px;
+	margin-right: 0;
+	margin-bottom: 0px;
+	margin-left: 0;
+	border-top: 1px solid #eee;
+}
+a.accordion-toggle {
+	position: relative;
+	display: block;
+	padding: 0px;
+	color: #616265;
+	padding-right: 50px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	text-decoration: none;
+	border: none;
+	
+	
+}
+a.accordion-toggle.open {
+	color: #98252B;
+}
+a.accordion-toggle:hover {
+	color: #98252B;
+	text-decoration: none;
+}
+a.accordion-toggle p {
+	margin: 0px;
+}
+a.accordion-toggle.question {
+	font-family: "SchoolbookRegular";
+	font-style: normal;
+	font-weight: 400;
+}
+	
+	@media (min-width: 768px){
+		
+	a.accordion-toggle.question {
+	font-size: 18px;
+    font-size: 1.125rem;
+}	
+		
+}
+a.accordion-toggle.heading_3 {
+	font-family: "Univers-Condensed";
+	font-style: normal;
+	font-weight: 400;
+	font-size: 24px;
+	font-size: 1.2rem;
+	line-height: 1.23076923;
+	text-transform: uppercase;
+    letter-spacing: 1.8px;
+	color: #98252B;
+}
+a.accordion-toggle.heading.allcaps {
+	text-transform: uppercase;
+	letter-spacing: 1.8px;
+}
+.accordion-toggle.heading_3 span.toggle-icon {
+	position: absolute;
+	top: 10px;
+	right: 5px;
+	
+}
+.accordion-toggle span.toggle-icon {
+	position: absolute;
+	top: 10px;
+	right: 10px;
+	
+}
+.accordion-toggle .fa-stack-2x {
+	font-size: 2.2rem;
+	vertical-align: middle;
+}
+.accordion-toggle .fa-circle {
+	color: #98252B; /*red*/
+	opacity: .35;
+}
+.accordion-toggle.open .fa-circle {
+	opacity: 1;
+}
+a.accordion-toggle:hover .fa-circle {
+	color: #98252B;
+	opacity: 1;
+}
+.accordion-toggle .fa-angle-right {
+	font-size: 28px;
+	font-size: 1.35rem;
+	line-height: 135%;
+	color: #FFF;
+	vertical-align: middle;
+	text-align: center;
+	margin-left: 1px;
+	margin-top: 2px;
+	margin-top: 0.0575em;
+}
+.accordion-toggle .fa-angle-down {
+	font-size: 28px;
+	font-size: 1.35rem;
+	line-height: 135%;
+	color: #FFF;
+	vertical-align: middle;
+	text-align: center;
+	margin-top: 3px;
+}
+.accordion-content {
+	display: none;
+	padding: 0px;
+	padding-left: 0px;
+	padding-right: 50px;
+	overflow: auto;
+}
+.accordion-content p {
+	margin-top: 0px;
+}
+.accordion-content .link_group {
+	font-family: "Univers-Condensed";
+	color: #98252B;
+	margin: 0px;
+	padding: 0px;
+	-webkit-columns: 2 200px;
+	-moz-columns: 2 200px;
+	columns: 2 200px;
+	-webkit-column-gap: 3em;
+	-moz-column-gap: 3em;
+	column-gap: 3em;
+	-moz-column-fill: auto;
+	column-fill: auto;
+	list-style: none;
+}
+.accordion-content .link_group h4 {
+	font-family: "Univers-Condensed";
+	font-size: 1rem;
+	margin: 0px;
+	padding: 0px;
+	margin-bottom: .5em;
+}
+.accordion-content .link_group h4 a {
+	text-decoration: none;
+}
+/* Fix for unbalanced top alignment in Chrome */
+.accordion-content .link_group > * {
+	-webkit-column-break-inside: avoid;
+	column-break-inside: avoid;
+}
+
+@media only screen and (max-width: 960px) {
+}
