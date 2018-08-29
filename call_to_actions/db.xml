@@ -1,0 +1,32 @@
+<?php xml version="1.0"?>
+<schema version="0.3">
+    <table name="btCallToActions">
+        <field name="bID" type="I">
+            <key/>
+            <unsigned/>
+        </field>
+        <field name="headline" type="C" size="255"></field>
+        <field name="bgimage" type="I">
+            <default value="0"/>
+            <unsigned/>
+        </field>
+    </table>
+    <table name="btCallToActionsCtasEntries">
+        <field name="id" type="I">
+            <key/>
+            <unsigned/>
+            <autoincrement/>
+        </field>
+        <field name="bID" type="I">
+            <unsigned/>
+        </field>
+        <field name="sortOrder" type="I"></field>
+        <field name="link" type="X"></field>
+        <field name="link_text" type="C"></field>
+        <field name="image" type="I">
+            <default value="0"/>
+            <unsigned/>
+        </field>
+        <field name="theme" type="C"></field>
+    </table>
+</schema>
