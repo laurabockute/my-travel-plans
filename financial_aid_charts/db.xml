@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<schema version="0.3">
+    <table name="btFinancialAidCharts">
+        <field name="bID" type="I">
+            <key/>
+            <unsigned/>
+        </field>
+        <field name="bgImage" type="I">
+            <default value="0"/>
+            <unsigned/>
+        </field>
+        <field name="hiddenTitle" type="C" size="255"></field>
+        <field name="title" type="C" size="255"></field>
+        <field name="aidPieCost" type="C" size="255"></field>
+        <field name="aidPieCostHint" type="C" size="255"></field>
+        <field name="aidPieGrant" type="C" size="255"></field>
+        <field name="aidPieGrantHint" type="C" size="255"></field>
+        <field name="aidPieTuitionTerm" type="C" size="255"></field>
+        <field name="aidPieTotal" type="C" size="255"></field>
+        <field name="aidPiePercentage" type="C" size="255"></field>
+        <field name="aidBarTuition" type="C" size="255"></field>
+        <field name="aidBarTuitionHint" type="C" size="255"></field>
+        <field name="aidBarRoomBoard" type="C" size="255"></field>
+        <field name="aidBarRoomBoardHint" type="C" size="255"></field>
+        <field name="aidBarScholarship" type="C" size="255"></field>
+        <field name="aidBarScholarshipHint" type="C" size="255"></field>
+        <field name="aidBarTotalSublabel" type="C" size="255"></field>
+        <field name="aidBarTotal" type="C" size="255"></field>
+        <field name="aidBarPercentage" type="C" size="255"></field>
+    </table>
+</schema>
